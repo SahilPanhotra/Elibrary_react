@@ -1,10 +1,11 @@
+import Nav from "./components/Nav";
 
 
 function App() {
   return (
     <div className="App">
       <header>
-        React
+        <Nav/>
       </header>
     </div>
   );
