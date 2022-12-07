@@ -1,3 +1,4 @@
+import { Landing } from "./components/Landing";
 import Nav from "./components/Nav";
 
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header>
         <Nav/>
+        <Landing/>
       </header>
     </div>
   );
