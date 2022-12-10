@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Books from "./pages/Books";
 import Home from "./pages/Home";
 import {books} from './data'
+import BookInfo from "./pages/BookInfo";
 function App() {
   return (
     <Router>
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/books" element={<Books books={books}/>}/>
+          <Route path="/books/:id" element={<BookInfo books={books} />}/>
         </Routes>
         <Footer />
       </div>
