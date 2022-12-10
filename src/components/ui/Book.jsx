@@ -32,9 +32,9 @@ const Book = ({ book }) => {
           </>
         ) : (
           <>
-            <span className="book__price--normal">
+            
               ${book.originalPrice.toFixed(2)}
-            </span>
+            
           </>
         )}
       </div>
